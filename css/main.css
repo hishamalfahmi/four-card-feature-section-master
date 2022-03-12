@@ -57,18 +57,19 @@ header .container {
 
 header .container h1 {
   font-weight: 200;
-  font-size: clamp(1rem, 6vw, 2.5rem);
+  font-size: clamp(1rem, 6.5vw, 3rem);
   color: var(--primary-color);
 }
 
 header .container h2 {
   font-weight: 600;
-  font-size: clamp(1rem, 6vw, 2.5rem);
+  font-size: clamp(1rem, 6.5vw, 3rem);
   color: var(--primary-color);
   margin: -0.5rem 0 1.5rem;
 }
 
 header .container p {
+  font-size: clamp(0.5rem, 4.5vw, 2rem);
   font-weight: 400;
   padding: 0 1.5rem;
   color: var(--secondary-color);
